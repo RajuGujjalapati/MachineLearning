@@ -50,15 +50,32 @@ You can see,i have applied label encoding for 1-3 features, as per the data.
 
 #### Sort Encoding
 
-May be it sounds weired to you but i have applied this in my own way. 
+May be it sounds weird to you but i have applied this in my own way. 
 I have taken <i> value_counts </i> and sorted values then i mapped values by enumerating it from 0 to n.<br>
-Say, I have 11 types of variables. I sorted the data and applied from 0 to 11.
+Say, I have 11 types of variables. I sorted the data and applied from 0 to 11.So, the variables are get the values according their count.
 Because my "class" label is an categorical type. so, i tried this approach.
 <br>
 Now, i have a clean numerical data.
 
 # Feature Engineering 
 
-Feature Engineering is a data preparation process. One modifies the data such that Machine Learning algorithms identify more patterns.<br>
+Feature Engineering is a data preparation process technique. One modifies the data such that Machine Learning algorithms identify more patterns.<br>
 
 ### Feature Selction
+
+Used Pearson correlation to find the best columns, and dropped unnecessary features.
+
+# Algorithm Selection
+
+Since the class labels are classification type, we have to select the best classification algorithm.<br>
+Mostly i have un-even data, i am safe to use <b>DecisionTree Classifier<b>, Generally decision tree tends to overfit the data.<br>
+Mostly 30% of the class label is single type, I believe it tends to overfit and used <b>RandomForestClassifier<b> and to select the best parameters i have used
+<b>Hyper Parameter Tuning<b> after fitting the data with best params, predict the test_data. 
+  <br>Here i got <b>99.3%<b> accuracy for train data and <b>99.2<b> for test data<br>
+  
+## Performance Metrics
+
+I have used confuion matrix to know where i am wrong.
+
+  
+
