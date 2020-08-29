@@ -18,14 +18,14 @@ As i am new to Machine learning i learned "Matplotlib library" first and applied
 
 ### Seaborn
 
-Do you know, I am one of the person who satisfied very much when i am using this package LOL!. No need to set ticks, labels, color's. Cool Right!!!!!
+Do you know, I am one of the person who satisfied very much when i am using this package <3!. No need to set ticks, labels, color's. Cool Right!!!!!
 
-I was bit surprised and learning mainly used techniques and applied. But this becomes when i am plotting more data.<br> whether i have to set big figure size (or) sometimes i can't even zoom
-my data. I frequently download the data and zooming it for better understading.
+But this becomes not so coool, when i want to plot the data in more efficient way.<br> whether i have to set big figure size (or) sometimes i can't even zoom
+my data. I frequently download the data and zooming it for better understanding.
 
 ### Plotly
 
-A better package i have never seen before. Plotly is build on matplotlib and seaborn.
+A better package i have never seen before. Plotly is build on matplotlib and seaborn( I hope so).
 <br>Its cool javascript based front end allows do any tasks like zoooooooming, selecting particular and downloading it. what not!!
 
 Basically i have used almost seaborn and plotly packages for my visualizations.
