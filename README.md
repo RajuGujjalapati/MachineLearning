@@ -68,7 +68,7 @@ Used Pearson correlation to find the best columns, and dropped unnecessary featu
 # Algorithm Selection
 
 Since the class labels are classification type, we have to select the best classification algorithm.<br>
-Mostly i have un-even data, i am safe to use <b>DecisionTree Classifier<b>, Generally decision tree tends to overfit the data.<br>
+Mostly i have un-even data, i am safe to use DecisionTree Classifier, Generally decision tree tends to overfit to the data(Anyway we have multiple options to don't overfit).<br>
 Mostly 30% of the class label is single type, I believe it tends to overfit and used <b>RandomForestClassifier<b> and to select the best parameters i have used
 <b>Hyper Parameter Tuning<b> after fitting the data with best params, predict the test_data. 
   <br>Here i got <b>99.3%<b> accuracy for train data and <b>99.2<b> for test data<br>
